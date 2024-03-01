@@ -1,0 +1,124 @@
+body{
+    font: 15px/1.5 Arial, Helvetica,sans-serif;
+    padding:0;
+    margin:0;
+    background-color: #262626;
+  }
+
+  .contenue{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+    border-style: dashed;
+    color: lightcoral;
+  }
+
+  .contenue_nom{
+    width:100%;
+    margin:auto;
+    overflow:hidden;
+  }
+  .coutour_nom{
+    
+    text-shadow:0 0 30px #EC637B,5px 9px 5px rgba(0, 0, 0, 0.5), 0 0 150px #EC637B;color:#FF91A9;
+  
+  }
+  /*.trans{
+    -webkit-transform: translate(0%, -50%);
+  transform: translate(0%, -50%);
+  }*/
+  h2{
+      font-family: 'Josefin Sans', sans-serif;
+  }
+  
+  h3{
+    font-family: 'Viga', sans-serif;
+  }
+  
+  p{
+    font-family: 'Viga', sans-serif;
+  }
+  
+  ul{
+    margin:0;
+    padding:0;
+  }
+  
+  header{
+    background:#262626;
+    color:#ffffff;
+    padding-top:30px;
+    min-height:70px;
+    /*border-bottom:red 3px solid;*/
+  }
+  
+  header a{
+    color:#ffffff;
+    text-decoration:none;
+    text-transform: uppercase;
+    font-size:20px;
+    font-family: 'Jua', sans-serif;
+  }
+  
+  header li{
+    float:center;
+    display:inline;
+    padding: 0 20px 0 20px;
+    transition: 0.6s all;
+  }
+  
+  
+  header nav{
+    float:center;
+    margin-top:10px;
+    color: #262626
+  }
+  
+  #pagecontenue{
+    min-height:400px;
+    background:url('../img/yey.jpg') no-repeat 0 -400px;
+    text-align:center;
+    color:#ffffff;
+  }
+  
+  #pagecontenue h1{
+    margin-top:100px;
+    font-size:55px;
+    margin-bottom:10px;
+  }
+  
+  #pagecontenue p{
+    font-size:20px;
+  }
+  
+  
+  
+  #ensemblebloc{
+    margin-top:20px;
+  }
+  
+  #ensemblebloc .bloc{
+    float:left;
+    text-align: center;
+    width:30%;
+    padding:10px;
+    font-size: 20px;
+  
+  }
+  
+  #ensemblebloc .bloc img{
+    width:90px;
+    
+  }
+  
+  
+  footer{
+    padding:10px;
+    margin-top:10px;
+    color:#ffffff;
+    background:url('../img/yey.jpg');
+    text-align: center;
+    font-size: 20px
+  }
+  
+  

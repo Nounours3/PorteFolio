@@ -1,0 +1,194 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif; 
+}
+
+h1{
+	color: white;
+}
+
+i{
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+p{
+	font-size: 30px;
+	font-family: 'Viga', sans-serif;
+	color: aliceblue;
+}
+
+.topnav{
+
+	overflow: hidden;
+	background-color: #262626;
+	background:url('../img/yey.jpg')
+}
+
+.topnav a{
+	float: left;
+	display: block;
+	color: #ffffff;
+	text-align: center;
+	padding: 25px 25px;
+	text-decoration: none;
+	font-size: 20px;
+	border-bottom:red 4px solid;
+	transition: 0.6s all;
+}
+
+.nom{
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 40px;
+}
+
+.mon-profil{
+	overflow: hidden;
+	text-align: center;
+	background:#262626;
+	padding: 60px;
+}
+.mon-profil h1{
+	text-transform: uppercase;
+	margin-bottom: 60px;
+	color: white;
+	font-size: 40px;
+}
+
+.cadre{
+	display: block;
+	margin: auto;
+	width: 165px;
+	height: 3px;
+	background: red;
+	margin-bottom: 70px;
+}
+
+.photo{
+	margin-bottom: 40px;
+}
+
+.photo a{
+	display: inline-block;
+	margin: 0 30px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+	border-radius: 50%;
+}
+
+.photo a img{
+	width: 100%;
+	filter: grayscale(100%);
+	transition: 0.4s all;
+}
+
+.photo a:hover > img{
+	filter: none;
+}
+
+.description
+{
+	margin: 50px;
+}
+.diplomes
+{
+	margin: 50px;
+}
+.mesContactes
+{
+	margin: 50px;
+}
+
+.card{
+	margin: 20px;
+	font-size: 10px;
+	font-family: 'Viga', sans-serif;
+    background:url('../img/yey.jpg') no-repeat 0 -400px;
+
+}
+.card-body{
+	padding: 10px;
+	margin: 5px;
+}
+.card p{
+	color: aliceblue;
+	font-size: 25px;
+}
+.card-position{
+	display: flex;
+	justify-content: center;
+}
+
+.contenue{
+	font-size: 20px;
+	color: white;
+	text-align: center;
+	margin: auto;
+}
+.name{
+	display: block;
+	font-size: 22px;
+	margin-bottom: 30px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.contenuetable {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-size: 0.9em;
+  min-width: 400px;
+  border-radius: 5px 5px 0 0;
+  overflow: hidden;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+.contenuetable thead tr {
+  background-color: red;
+  color: white;
+  text-align: center;
+  font-weight: bold;
+}
+
+.contenuetable th, .contenuetable td {
+  padding: 12px 15px;
+}
+.contenuetable tbody tr {
+  border-bottom: 1px solid red;
+}
+
+.contenuetable tbody tr:nth-of-type(even) {
+  background-color: white;
+}
+
+
+.contenuetable tbody tr:last-of-type {
+  border-bottom: 2px solid red;
+}
+
+.contenuetable tbody tr.caseremplieblanc {
+  font-weight: bold;
+  color: #262626;
+}
+.haut{
+	position: fixed;
+	width: 50px;
+	height: 50px;
+	background:#27ae60;
+	bottom: 40px;
+	right: 50px;
+
+}
+footer{
+  padding:50px;
+  margin-top:10px;
+  color:#ffffff;
+  background:url('../img/yey.jpg');
+  text-align: center;
+  font-size: 20px;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+	font-size: 25px;
+}

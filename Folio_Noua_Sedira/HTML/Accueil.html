@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Bienvenue sur mon porte folio HTML 🏠</title>
+    <link rel="icon" type="image/png" href="./img/logo.png" />
+    <link rel="stylesheet" href="../css/styleAccueil.css">
+    
+    <link href="https://fonts.googleapis.com/css?family=Viga&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Jua&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <header>
+      <div class="contenue">
+        <nav>
+          <ul>
+            <li><a href="Accueil.html">🏠 Accueil</a></li>
+            <li><a href="https://www.cegeptr.qc.ca/">🏫 Site Cégep TR </a></li>
+            <li><a href="https://universdujapon.com/blogs/japon/histoire-du-manga">🎨 Ma passion</a></li>
+            <li><a href="mailto:nsedira7@gmail.com">✉️ Messagerie</a></li>
+            <!--liens vers la page Index-->
+            <li><a href="index.html">👨‍💻 À propos de moi</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    	<!--1er partie de la page (mon nom et prenom ainsi qu'une phrase stylé :D, + un contour pour mon nom style Néom =D )-->
+
+    <section id="pagecontenue">
+      <div class="contenue_nom">
+        <div class="coutour_nom"><h1 class="trans">"Noua SEDIRA"</h1></div> 
+        <p>Une étudiante ayant de grandes ambitions en tête... 💭</p>
+      </div>
+    </section>
+
+		<!--2eme partie de la page ( différents bloc mappage : site cegep , messagerie , passion )-->
+
+    <section id="ensemblebloc">
+      <div class="contenue">
+        <div class="bloc">
+        	<map name="monmappage1">
+        	<area shape="rect" coords="2,3,98,97" href="https://www.cegeptr.qc.ca/"></map>
+          <img src="../img/icons8-school-100.png" alt="Oups" usemap="#monmappage1"></a>
+          <h3><font color="#fff">Cégep Trois-Rivières</h3>
+          <p>Cliquer sur l'image pour accéder au site de mon Cégep<br>
+          </p>
+        </div>
+        <div class="bloc">
+          <map name="monmappage">
+        	<area shape="rect" coords="12,22,87,77" href="mailto:nsedira7@gmail.com"></map>
+          <img src="../img/icons8-gmail-100.png" alt="Oups" usemap="#monmappage"></a>
+          <h3>Ma messagerie</h3>
+          <p>
+          Cliquer sur l'image afin d'accéder à ma messagerie
+          </p>
+        </div>
+        <div class="bloc">
+        	<map name="monmappage2">
+        	<area shape="rect" coords="3,3,67,64" href="https://universdujapon.com/blogs/japon/histoire-du-manga"></map>
+          <img src="../img/icons8-drawing-64.png" alt="Oups" usemap="#monmappage2"></a>
+          <h3>Ma passion</h3>
+          <p>Cliquer sur l'image afin d'accéder au site qui résume ma passion</p>
+        </div>
+        <div class="bloc">
+        	<map name="monmappage3">
+        	<area shape="rect" coords="3,3,67,64" href="https://www.planeteanimal.com/origine-du-chat-3207.html"></map>
+          <img src="../img/chat_mignon.jpg" alt="Oups" usemap="#monmappage3"></a>
+          <h3>Mon animal préféré</h3>
+          <p>Cliquer sur l'image afin d'accéder au site qui résume mon animal préféré</p>
+        </div>
+      </div>
+    </section>
+
+    <!--L'ajout du marquee qui permet de défiler mon nom ainsi que le sujet du devoir-->
+
+    <footer>
+      <marquee behavior="alternate"><p><h2>Noua SEDIRA - Petit porte-folio rapide</h2></p></marquee>
+    </footer>
+  </body>
+</html>
